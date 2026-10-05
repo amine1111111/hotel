@@ -1,0 +1,1 @@
+npm prisma studio and delete the admin
