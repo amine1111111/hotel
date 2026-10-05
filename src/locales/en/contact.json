@@ -1,0 +1,25 @@
+{
+  "mapTitle": "Hotel location on Google Maps",
+  "contacts": {
+    "phone": {
+      "label": "Phone",
+      "value": "+213725415985"
+    },
+    "email": {
+      "label": "Email",
+      "value": "hello@hotel.com"
+    },
+    "address": {
+      "label": "Address",
+      "value": "Bouira, Algeria"
+    },
+    "hours": {
+      "label": "Hours",
+      "value": "Open 24 Hours"
+    },
+    "days": {
+      "label": "Days",
+      "value": "Monday — Sunday"
+    }
+  }
+}

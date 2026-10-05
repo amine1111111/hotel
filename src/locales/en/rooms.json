@@ -1,0 +1,83 @@
+{
+  "header": {
+    "eyebrow": "Our Rooms",
+    "title": "Find the perfect room for your stay",
+    "description": "Discover comfortable rooms thoughtfully designed to make your stay relaxing and memorable."
+  },
+  "card": {
+    "view": "View Room",
+    "viewAria": "View {{name}}",
+    "upTo": "Up to",
+    "adult": "adult",
+    "adults": "adults",
+    "child": "child",
+    "children": "children",
+    "pricePerNight": "Price per night",
+    "night": "night"
+  },
+  "details": {
+    "loading": "Loading room...",
+    "loadError": "Failed to load room.",
+    "notFound": "Room not found"
+  },
+  "info": {
+    "size": "Size",
+    "beds": "Beds",
+    "adults": "Adults",
+    "children": "Children",
+    "upTo": "Up to",
+    "notAllowed": "Not allowed",
+    "roomPrice": "Room price",
+    "fixedPricePerNight": "Fixed price per night"
+  },
+  "amenities": {
+    "eyebrow": "Comfort",
+    "title": "Room Amenities",
+    "items": {
+      "wifi": "Wi-Fi",
+      "tv": "TV",
+      "ac": "Air Conditioning",
+      "bathroom": "Private Bathroom",
+      "terrace": "Terrace",
+      "jacuzzi": "Jacuzzi",
+      "seaView": "Sea View",
+      "miniBar": "Mini Bar",
+      "butler": "Butler Service",
+      "terrace80m": "80 m² Terrace",
+      "breakfastIncluded": "Breakfast Included"
+    }
+  },
+  "booking": {
+    "eyebrow": "Your stay starts here",
+    "title": "Ready to book?",
+    "description": "Choose your dates and check availability for this room.",
+    "button": "Book this room"
+  },
+  "rooms": {
+    "standard-single": {
+      "category": "Standard",
+      "name": "Standard Single",
+      "description": "A comfortable and welcoming room for 1 guest, ideal for business or short stays."
+    },
+    "standard-double": {
+      "category": "Standard",
+      "name": "Standard Double",
+      "description": "A spacious and welcoming room for 2 adults, with the option to accommodate a child."
+    },
+    "executive-sea-view": {
+      "category": "Executive",
+      "name": "Executive Sea View Suite",
+      "description": "An elegant suite with an exceptional sea view, ideal for a comfortable and peaceful stay."
+    },
+    "deluxe-sea-view": {
+      "category": "Deluxe",
+      "name": "Deluxe Sea View Suite",
+      "description": "A spacious suite with a sofa bed and a beautiful sea view, ideal for a family stay."
+    },
+    "honeymoon-package": {
+      "category": "Special",
+      "name": "Honeymoon Package",
+      "description": "Celebrate your honeymoon with exceptional amenities and services. Fixed price all year round."
+    }
+  }
+}

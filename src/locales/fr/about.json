@@ -1,0 +1,69 @@
+{
+  "hero": {
+    "label": "À propos de l’hôtel",
+    "imageAlt": "Extérieur de l’hôtel",
+    "title": {
+      "line1": "Bien plus",
+      "line2": "qu’un lieu où",
+      "line3": "séjourner."
+    },
+    "description": "Un lieu pensé autour du confort, des moments de calme et du simple plaisir de se sentir chez soi, ailleurs."
+  },
+  "story": {
+    "label": "Notre histoire",
+    "sideText": "Pensé pour ceux qui apprécient les détails.",
+    "imageAlt": "Intérieur de l’hôtel",
+    "headline": [
+      "L’hospitalité",
+      "commence",
+      "par",
+      "la façon",
+      "dont un lieu",
+      "vous fait",
+      "vous",
+      "sentir."
+    ],
+    "paragraph1": "Nous pensons que les meilleurs séjours reposent rarement sur un moment extraordinaire. Ils naissent de petites choses : une chambre dans laquelle on se sent bien, un matin paisible, un accueil chaleureux et la sensation que tout a été pensé pour vous.",
+    "paragraph2": "Chaque espace de l’hôtel est conçu autour de cette idée — créer un environnement où vous pouvez arriver, ralentir et simplement profiter du moment."
+  },
+  "philosophy": {
+    "label": "Notre philosophie",
+    "essentials": "L’essentiel",
+    "items": {
+      "comfort": {
+        "title": "Confort",
+        "text": "Des espaces conçus pour ralentir naturellement. De la première nuit au dernier matin, tout commence par le sentiment d’être à l’aise."
+      },
+      "hospitality": {
+        "title": "Hospitalité",
+        "text": "Un service attentionné, une véritable écoute et la liberté de profiter de votre séjour à votre propre rythme."
+      },
+      "atmosphere": {
+        "title": "Atmosphère",
+        "text": "Des matières chaleureuses, des détails soigneusement pensés et des espaces paisibles se réunissent pour créer une expérience qui vous accompagne."
+      }
+    }
+  },
+  "experience": {
+    "label": "L’expérience",
+    "meta": "Arriver / Ralentir / Profiter",
+    "imageAlt": "Chambre d’hôtel",
+    "title": {
+      "line1": "Arrivez.",
+      "line2": "Ralentissez.",
+      "line3": "Profitez."
+    },
+    "description": "Que vous soyez ici pour une nuit ou plusieurs, nos espaces sont conçus pour vous laisser respirer. Prenez votre temps. Explorez à votre rythme. Laissez la journée se dérouler naturellement.",
+    "button": "Découvrir nos chambres"
+  },
+  "cta": {
+    "label": "Votre séjour",
+    "title": {
+      "line1": "Votre chambre",
+      "line2": "vous attend."
+    },
+    "description": "Trouvez votre espace, choisissez vos dates et laissez votre séjour commencer.",
+    "buttonLine1": "Découvrir",
+    "buttonLine2": "les chambres"
+  }
+}

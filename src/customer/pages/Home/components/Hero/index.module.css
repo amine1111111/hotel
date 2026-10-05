@@ -1,0 +1,33 @@
+.element {
+}
+
+.element:not(.active, .next) {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.element.active {
+  pointer-events: none;
+}
+
+.element.next {
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+@media (hover) {
+  .element.next {
+    transition:
+      opacity 0.5s ease,
+      scale 0.5s ease;
+    opacity: 0;
+    scale: 0.85;
+  }
+
+  .element.next:hover {
+    opacity: 1;
+    scale: 1;
+  }
+}
