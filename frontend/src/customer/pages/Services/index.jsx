@@ -228,8 +228,8 @@ const Services = () => {
       ref={rootRef}
       className="w-full min-w-0 overflow-x-clip bg-background text-foreground"
     >
-      <section className="w-full px-5 py-8 sm:px-8 lg:px-12">
-        <div className="mx-auto flex min-h-[calc(100svh-4rem)] w-full max-w-[1600px] min-w-0 flex-col">
+      <section className="w-full px-5 py-8 sm:px-8 sm:py-10 lg:px-12 lg:py-12">
+        <div className="mx-auto w-full max-w-[1600px] min-w-0">
           <header className="services-header flex w-full min-w-0 items-start justify-between gap-6">
             <div className="services-eyebrow flex min-w-0 items-center gap-3 text-[9px] uppercase tracking-[0.3em] text-muted-foreground sm:text-[10px]">
               <span className="h-px w-7 shrink-0 bg-secondary sm:w-8" />
@@ -242,8 +242,8 @@ const Services = () => {
             </div>
           </header>
 
-          <div className="mt-12 grid min-w-0 flex-1 grid-cols-1 gap-12 lg:mt-14 lg:grid-cols-[minmax(0,0.82fr)_minmax(0,1.18fr)] lg:gap-14 xl:gap-20">
-            <div className="flex min-w-0 flex-col justify-between">
+          <div className="mt-12 grid min-w-0 grid-cols-1 gap-14 lg:mt-16 lg:grid-cols-[minmax(0,0.82fr)_minmax(0,1.18fr)] lg:items-start lg:gap-14 xl:gap-20">
+            <div className="min-w-0 lg:pt-2">
               <div className="min-w-0">
                 <h1 className="services-heading-line max-w-full text-[clamp(3.5rem,8vw,8rem)] font-light leading-[0.9] tracking-[-0.07em]">
                   {t("heading.line1")}
@@ -258,7 +258,7 @@ const Services = () => {
                 </p>
               </div>
 
-              <div className="mt-10 hidden lg:block">
+              <div className="mt-16 hidden lg:block">
                 <div className="flex items-center gap-4 text-[9px] uppercase tracking-[0.28em] text-muted-foreground">
                   <ArrowDown size={14} strokeWidth={1} />
                   <span>{t("exploreServices")}</span>
@@ -266,9 +266,9 @@ const Services = () => {
               </div>
             </div>
 
-            <div className="services-interface flex min-w-0 flex-col">
-              <div className="grid min-w-0 grid-cols-1 gap-8 md:grid-cols-[minmax(0,0.82fr)_minmax(0,1.18fr)] md:items-center md:gap-8 lg:gap-10">
-                <div className="order-2 flex min-w-0 flex-col justify-center md:order-1">
+            <div className="services-interface min-w-0">
+              <div className="grid min-w-0 grid-cols-1 gap-10 md:grid-cols-[minmax(0,0.82fr)_minmax(0,1.18fr)] md:items-start md:gap-8 lg:gap-10">
+                <div className="order-2 min-w-0 md:order-1 md:pt-1">
                   <div className="mb-7 border-t border-border/60 pt-4">
                     <div className="flex min-w-0 items-center justify-between gap-4 text-[9px] uppercase tracking-[0.22em] text-muted-foreground">
                       <span>{t("selectedService")}</span>
@@ -326,7 +326,7 @@ const Services = () => {
                   </div>
                 </div>
 
-                <div className="order-1 flex min-w-0 items-center md:order-2">
+                <div className="order-1 min-w-0 md:order-2">
                   <div
                     ref={visualRef}
                     className="relative mx-auto aspect-[0.82] w-full max-w-[620px] overflow-hidden bg-primary md:aspect-[0.78]"
@@ -419,7 +419,7 @@ const Services = () => {
 
       <section className="w-full bg-primary px-5 py-24 text-primary-foreground sm:px-8 sm:py-28 lg:px-12 lg:py-32">
         <div className="mx-auto w-full max-w-[1600px] min-w-0">
-          <div className="flex min-w-0 flex-col justify-between gap-12 lg:flex-row lg:items-end lg:gap-20">
+          <div className="flex min-w-0 flex-col gap-12 lg:flex-row lg:items-end lg:justify-between lg:gap-20">
             <div className="min-w-0">
               <div className="mb-7 flex items-center gap-3 text-[9px] uppercase tracking-[0.3em] text-secondary">
                 <span className="h-px w-8 shrink-0 bg-secondary" />
