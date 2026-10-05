@@ -1,0 +1,69 @@
+{
+  "hero": {
+    "label": "About the hotel",
+    "imageAlt": "Hotel exterior",
+    "title": {
+      "line1": "More than",
+      "line2": "a place to",
+      "line3": "stay."
+    },
+    "description": "A place created around comfort, quiet moments, and the simple pleasure of feeling at home somewhere new."
+  },
+  "story": {
+    "label": "Our story",
+    "sideText": "Designed for people who appreciate the details.",
+    "imageAlt": "Hotel interior",
+    "headline": [
+      "Hospitality",
+      "begins",
+      "with",
+      "how",
+      "a place",
+      "makes",
+      "you",
+      "feel."
+    ],
+    "paragraph1": "We believe the best stays are rarely about one extraordinary moment. They are built from the small things: a room that feels right, a quiet morning, a warm welcome, and the feeling that everything has been taken care of.",
+    "paragraph2": "Every part of the hotel is shaped around that idea — creating an environment where you can arrive, slow down, and simply enjoy being here."
+  },
+  "philosophy": {
+    "label": "Our philosophy",
+    "essentials": "The essentials",
+    "items": {
+      "comfort": {
+        "title": "Comfort",
+        "text": "Spaces designed to make slowing down feel natural. From the first night to the last morning, everything begins with feeling at ease."
+      },
+      "hospitality": {
+        "title": "Hospitality",
+        "text": "Thoughtful service, genuine attention, and the freedom to enjoy your stay at your own pace."
+      },
+      "atmosphere": {
+        "title": "Atmosphere",
+        "text": "Warm materials, considered details, and quiet spaces come together to create an experience that stays with you."
+      }
+    }
+  },
+  "experience": {
+    "label": "The experience",
+    "meta": "Arrive / Slow down / Stay awhile",
+    "imageAlt": "Hotel room",
+    "title": {
+      "line1": "Arrive.",
+      "line2": "Slow down.",
+      "line3": "Stay awhile."
+    },
+    "description": "Whether you are here for one night or several, our spaces are designed to give you room to breathe. Take your time. Explore at your own pace. Let the day unfold naturally.",
+    "button": "Explore our rooms"
+  },
+  "cta": {
+    "label": "Your stay",
+    "title": {
+      "line1": "Your room",
+      "line2": "is waiting."
+    },
+    "description": "Find your space, choose your dates, and let your stay begin.",
+    "buttonLine1": "Explore",
+    "buttonLine2": "rooms"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "eyebrow": "Services de l’hôtel",
+  "designedAround": {
+    "line1": "Pensé autour de",
+    "line2": "votre séjour"
+  },
+  "heading": {
+    "line1": "Tout ce dont",
+    "line2": "vous avez besoin."
+  },
+  "intro": "De votre arrivée à votre départ, chaque détail de l’expérience est pensé avec soin. Découvrez tout ce qui rend votre séjour complet.",
+  "exploreServices": "Découvrir les services",
+  "selectedService": "Service sélectionné",
+  "experience": "Expérience",
+  "services": "Services",
+  "nextService": "Service suivant",
+  "cta": {
+    "eyebrow": "Créez votre séjour",
+    "titleLine1": "Restez pour",
+    "titleLine2": "l’expérience.",
+    "description": "Choisissez votre chambre, façonnez votre séjour et laissez-nous prendre soin des détails.",
+    "button": "Découvrir les chambres"
+  },
+  "footer": {
+    "thoughtfulService": "Service attentionné",
+    "quietComfort": "Confort paisible",
+    "uncomplicatedHospitality": "Hospitalité simple et naturelle"
+  },
+  "items": {
+    "stay": {
+      "title": "Séjour",
+      "label": "Chambres & Suites",
+      "description": "Des chambres soigneusement conçues avec le confort, l’espace et le calme nécessaires pour vous installer et profiter pleinement de votre séjour.",
+      "details": [
+        "Espaces pensés pour le confort",
+        "Ménage quotidien",
+        "Équipements soigneusement sélectionnés"
+      ]
+    },
+    "dine": {
+      "title": "Déguster",
+      "label": "Gastronomie & Restauration",
+      "description": "Une cuisine savoureuse, une atmosphère détendue et la liberté de prendre votre temps. Du premier café au dernier dîner.",
+      "details": [
+        "Service petit-déjeuner",
+        "Restauration sur place",
+        "Repas privés"
+      ]
+    },
+    "unwind": {
+      "title": "Se détendre",
+      "label": "Bien-être",
+      "description": "Un aspect plus paisible du séjour. Des espaces et des expériences conçus pour ralentir, se ressourcer et profiter pleinement du moment.",
+      "details": [
+        "Espaces de détente",
+        "Expériences bien-être",
+        "Moments de calme"
+      ]
+    },
+    "gather": {
+      "title": "Se réunir",
+      "label": "Événements & Réunions",
+      "description": "Des espaces flexibles pour les réunions, les célébrations et bien plus encore, avec une équipe attentive à chaque détail.",
+      "details": [
+        "Événements privés",
+        "Espaces de réunion",
+        "Accompagnement événementiel"
+      ]
+    },
+    "assist": {
+      "title": "Assistance",
+      "label": "Conciergerie",
+      "description": "Des demandes simples aux recommandations personnalisées, notre équipe est là pour rendre votre expérience aussi agréable que possible.",
+      "details": [
+        "Recommandations locales",
+        "Demandes des clients",
+        "Assistance personnalisée"
+      ]
+    }
+  }
+}
