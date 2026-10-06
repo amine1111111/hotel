@@ -143,18 +143,6 @@ const About = () => {
             start: "top 75%",
           },
         })
-
-        gsap.from(".about-cta-title span", {
-          yPercent: 100,
-          opacity: 0,
-          stagger: 0.08,
-          duration: 1,
-          ease: "power4.out",
-          scrollTrigger: {
-            trigger: ".about-cta",
-            start: "top 70%",
-          },
-        })
       }, pageRef)
 
       return () => context.revert()
@@ -381,51 +369,6 @@ const About = () => {
                 </span>
               </TransitionButton>
             </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="about-cta relative flex min-h-[80svh] items-center overflow-hidden bg-primary px-6 py-28 text-primary-foreground sm:px-10 lg:px-16">
-        <div className="absolute right-[-10%] top-1/2 size-[70vw] max-w-175 -translate-y-1/2 rounded-full border border-secondary/20" />
-
-        <div className="absolute right-[5%] top-1/2 size-[45vw] max-w-125 -translate-y-1/2 rounded-full border border-secondary/15" />
-
-        <div className="relative z-10 mx-auto min-w-0 w-full max-w-7xl">
-          <span className="mb-12 block break-words text-[10px] uppercase tracking-[0.35em] text-white/40 sm:text-xs">
-            05 — {t("cta.label")}
-          </span>
-
-          <h2 className="about-cta-title max-w-full text-[clamp(3.5rem,9vw,9rem)] font-light leading-[0.82] tracking-[-0.055em]">
-            <span className="block max-w-full break-words">
-              {t("cta.title.line1")}
-            </span>
-
-            <span className="block max-w-full pl-[10vw] break-words text-secondary">
-              {t("cta.title.line2")}
-            </span>
-          </h2>
-
-          <div className="mt-16 flex min-w-0 flex-col gap-8 sm:flex-row sm:items-end sm:justify-between">
-            <p className="min-w-0 max-w-sm break-words text-sm leading-7 text-white/50">
-              {t("cta.description")}
-            </p>
-
-            <TransitionButton
-              to="/rooms"
-              className="group flex size-32 shrink-0 items-center justify-center rounded-full bg-secondary text-center text-[10px] uppercase tracking-[0.2em] text-secondary-foreground transition-transform duration-500 hover:scale-105 sm:size-40"
-            >
-              <span>
-                {t("cta.buttonLine1")}
-                <br />
-                {t("cta.buttonLine2")}
-              </span>
-
-              <ArrowUpRight
-                size={15}
-                strokeWidth={1.2}
-                className="ml-2 shrink-0 transition-transform duration-500 group-hover:translate-x-1 group-hover:-translate-y-1"
-              />
-            </TransitionButton>
           </div>
         </div>
       </section>
