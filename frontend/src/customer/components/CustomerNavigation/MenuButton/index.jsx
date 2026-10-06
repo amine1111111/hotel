@@ -23,6 +23,7 @@ const MenuButton = ({
         flex
         h-12
         w-12
+        cursor-pointer
         items-center
         justify-center
         rounded-full

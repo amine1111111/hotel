@@ -28,6 +28,7 @@ const LanguageSwitcher = ({
         type="button"
         onClick={() => onLanguageChange("en")}
         className={`
+          cursor-pointer
           rounded-full
           px-4
           py-2
@@ -50,6 +51,7 @@ const LanguageSwitcher = ({
         type="button"
         onClick={() => onLanguageChange("fr")}
         className={`
+          cursor-pointer
           rounded-full
           px-4
           py-2
@@ -68,7 +70,7 @@ const LanguageSwitcher = ({
         FR
       </button>
     </div>
-  );
-};
+  )
+}
 
-export default LanguageSwitcher;
+export default LanguageSwitcher

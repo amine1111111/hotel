@@ -1,6 +1,6 @@
-import { ArrowUpRight } from "lucide-react";
+import { ArrowUpRight } from "lucide-react"
 
-import TransitionButton from "../../PageTransition/TransitionButton";
+import TransitionButton from "../../PageTransition/TransitionButton"
 
 const NavigationLinks = ({ navigation, linkRefs, onNavigationClick }) => {
   return (
@@ -11,12 +11,13 @@ const NavigationLinks = ({ navigation, linkRefs, onNavigationClick }) => {
             <TransitionButton
               to={item.path}
               ref={(element) => {
-                linkRefs.current[index] = element;
+                linkRefs.current[index] = element
               }}
               onClick={() => onNavigationClick(item.path)}
               className="
                 group
                 inline-flex
+                cursor-pointer
                 items-center
                 gap-4
                 text-4xl
@@ -49,7 +50,7 @@ const NavigationLinks = ({ navigation, linkRefs, onNavigationClick }) => {
         ))}
       </ul>
     </nav>
-  );
-};
+  )
+}
 
-export default NavigationLinks;
+export default NavigationLinks

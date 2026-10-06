@@ -26,24 +26,28 @@ app.use(helmet())
 
 // Normally, the browser doesn't allow cross-origin requests to include cookies unless both sides explicitly allow it.
 
+
+
 app.use(
   cors({
     origin: CLIENT_URL,
     credentials: true,
   })
 
-//   cors({
-//   origin: [
-//     'http://localhost:5173',
-//     'http://localhost:4173',
-//   ],
-//   credentials: true,
-// })
-
 
 )
 
 
+// app.use(
+//   cors({
+//     origin: [
+//       "http://localhost:5173",
+//       "http://localhost:4173",
+//       CLIENT_URL,
+//     ],
+//     credentials: true,
+//   }),
+// )
 
 app.use(express.json())
 
