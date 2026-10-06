@@ -277,10 +277,10 @@ const About = () => {
 
       <section
         ref={philosophyRef}
-        className="bg-primary px-6 py-28 text-primary-foreground sm:px-10 sm:py-40 lg:px-16"
+        className="bg-primary px-6 py-24 text-primary-foreground sm:px-10 sm:py-32 lg:px-16 lg:py-40 xl:py-48"
       >
-        <div className="mx-auto min-w-0 max-w-7xl">
-          <div className="mb-20 flex min-w-0 items-start justify-between gap-8 sm:mb-28">
+        <div className="mx-auto w-full max-w-[1600px] min-w-0">
+          <div className="mb-16 flex min-w-0 items-start justify-between gap-8 sm:mb-20 lg:mb-28">
             <span className="min-w-0 break-words text-[10px] uppercase tracking-[0.35em] text-white/45 sm:text-xs">
               03 — {t("philosophy.label")}
             </span>
@@ -293,24 +293,40 @@ const About = () => {
           <div className="min-w-0 border-t border-white/15">
             {PHILOSOPHY.map((item, index) => (
               <article
-                key={item.number}
-                ref={(element) => {
-                  philosophyItemsRef.current[index] = element
-                }}
-                className="grid min-w-0 gap-8 border-b border-white/15 py-12 sm:py-16 lg:grid-cols-[100px_minmax(0,0.8fr)_minmax(0,1fr)] lg:items-center lg:gap-16"
-              >
-                <span className="shrink-0 text-[10px] tracking-[0.25em] text-white/35">
-                  {item.number}
-                </span>
+  key={item.number}
+  ref={(element) => {
+    philosophyItemsRef.current[index] = element
+  }}
+  className="
+    flex
+    min-w-0
+    flex-col
+    gap-6
+    border-b
+    border-white/15
+    py-10
+    sm:py-12
+    lg:grid
+    lg:grid-cols-[auto_minmax(0,1fr)]
+    lg:gap-x-3
+    lg:gap-y-0
+    lg:py-16
+    xl:gap-x-4
+    xl:py-20
+"
+>
+  <span className="shrink-0 pt-1 text-[10px] tracking-[0.25em] text-white/35">
+    {item.number}
+  </span>
 
-                <h3 className="min-w-0 break-words text-4xl font-light tracking-[-0.04em] sm:text-6xl lg:text-7xl">
-                  {t(`philosophy.items.${item.key}.title`)}
-                </h3>
+  <h3 className="min-w-0 break-words text-4xl font-light leading-[0.95] tracking-[-0.04em] sm:text-5xl lg:text-7xl xl:text-[5.5rem]">
+    {t(`philosophy.items.${item.key}.title`)}
+  </h3>
 
-                <p className="min-w-0 max-w-md break-words text-sm leading-7 text-white/55 sm:text-base sm:leading-8">
-                  {t(`philosophy.items.${item.key}.text`)}
-                </p>
-              </article>
+  <p className="min-w-0 max-w-xl break-words text-sm leading-7 text-white/55 sm:text-base sm:leading-8 lg:col-start-2 lg:mt-6">
+    {t(`philosophy.items.${item.key}.text`)}
+  </p>
+</article>
             ))}
           </div>
         </div>
