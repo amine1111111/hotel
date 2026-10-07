@@ -1,15 +1,3 @@
-// import { useQuery } from '@tanstack/react-query'
-// import { getRoom } from '../../api/rooms'
-
-// const useRoom = (id) => {
-//   return useQuery({
-//     queryKey: ['room', id],
-//     queryFn: () => getRoom(id),
-//     enabled: Boolean(id),
-//   })
-// }
-
-// export default useRoom
 
 import { useQuery } from '@tanstack/react-query'
 import { getRoom } from '../../api/rooms'

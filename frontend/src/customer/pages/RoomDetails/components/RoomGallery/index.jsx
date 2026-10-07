@@ -1,16 +1,3 @@
-// const RoomGallery = ({ room }) => {
-//   return (
-//     <section className="border border-red-400 my-5">
-//       <img
-//         src={room.images.heroImg}
-//         alt={room.name}
-//       />
-//     </section>
-//   )
-// }
-
-// export default RoomGallery
-
 
 const RoomGallery = ({ room }) => {
   return (

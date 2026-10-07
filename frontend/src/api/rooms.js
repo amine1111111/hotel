@@ -2,39 +2,6 @@
 
 const API_URL = `${import.meta.env.VITE_API_URL}/api`
 
-// const transformRoom = (room) => ({
-//   id: room.id,
-//   type: room.type,
-//   category: room.category,
-
-//   name: room.name,
-//   description: room.description,
-
-//   size: room.size,
-
-//   beds: {
-//     type: room.bedType,
-//     quantity: room.bedQuantity,
-//     sleeps: room.bedSleeps,
-//   },
-
-//   capacity: {
-//     maxAdults: room.maxAdults,
-//     maxChildren: room.maxChildren,
-//     maxGuests: room.maxGuests,
-//   },
-
-//   pricePerNight: room.pricePerNight,
-
-//   amenities: room.amenities,
-
-//   images: {
-//     heroImg: room.heroImg,
-//     roomCard: room.roomCard,
-//     roomImg: room.roomImg,
-//   },
-// })
-
 const transformRoom = (room) => ({
   id: room.id,
   type: room.type,
@@ -115,25 +82,6 @@ const getRoom = async (id) => {
 }
 
 
-// getRooms()
-//   .then((rooms) => {
-//     console.log('getRooms() result:', rooms)
-//   })
-//   .catch((error) => {
-//     console.error('getRooms() error:', error)
-//   })
-
-
-
-
-
-// getRoom('standard-single')
-//   .then((room) => {
-//     console.log('Single room from API:', room)
-//   })
-//   .catch((error) => {
-//     console.error('getRoom() error:', error)
-//   })
 
 
 const checkAvailability = async ({

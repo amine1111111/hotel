@@ -1,12 +1,3 @@
-// import { RouterProvider } from 'react-router-dom'
-// import router from './router'
-
-// function App() {
-//   // console.log("my frontend app")
-//   return <RouterProvider router={router} />
-// }
-
-// export default App
 
 
 import { Suspense } from 'react'
